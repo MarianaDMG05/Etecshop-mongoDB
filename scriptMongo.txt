@@ -1,0 +1,25 @@
+//Acessar o servidor
+mongosh "mongodb+srv://cluster0.dhrl9.mongodb.net/" --apiVersion 1 --username admin
+
+//Acessar ou criar o banc0o
+use EtecShop
+
+//Criar a  coleção de produtos 
+db.produtos.inserMany([
+
+    {
+        nome: "Nome do produto",
+        descricao:"Texto grande",
+        preco: 1.99,
+        precodesconto: 1.90,
+        categorias: ["", "",""],
+        tags:["", ""],
+        marca: "",
+        estoque: 1,
+        ativo: true,
+      
+    }
+])
+
+git config --global user.name MarianaDMG05
+git config --global user.email mariana.gomes87@etec.sp.gov.br
