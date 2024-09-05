@@ -23,3 +23,113 @@ db.produtos.inserMany([
 
 git config --global user.name MarianaDMG05
 git config --global user.email mariana.gomes87@etec.sp.gov.br
+
+
+
+
+db.produtos.inserMany([
+
+    {
+        nome: "Glamour Secrets Black",
+        descricao:"Combinando diferentes flores, como a Flor de Tiaré, e frutas vermelhas, como a Framboesa, Glamour Secrets Black Desodorante Colônia traz um leve toque de Baunilha impossível de se resistir.",
+        preco: R$ 174,90,
+        precodesconto: 157,40,
+        categorias: ["feminino"],
+        tags:["perfume"],
+        marca: "o boticario",
+        estoque: 10,
+        ativo: true,
+      
+    },
+
+
+    {
+        nome: "Seven Five Seven Dazzle",
+        descricao:"Fragrância Floral Frutada para mulheres. As notas de topo são Champagne Rosé e Pimenta Rosa; as notas de coração são Flor de Pêssego e Rosa; as notas de base são Almíscar Branco e Notas Amadeiradas.",
+        preco: R$ 350,00,
+        precodesconto: R$ 315,00,
+        categorias: ["feminino"],
+        tags:["perfume"],
+        marca: "Genérico",
+        estoque: 0,
+        ativo: false,
+      
+    },
+
+
+    {
+        nome: "Dior Perfume Miss ",
+        descricao:"Miss Dior intriga, emociona e nos convida a nos maravilharmos com o amor e com toda a beleza do mundo. Ecoando seu caráter inspirador, o novo perfume Miss Dior Eau de Parfum é como um “millefiori” olfativo. Rosa Centifolia, com suas notas mel e apimentadas, reina sobre um coração aveludado deliciosamente cremoso. O Eau de Parfum Miss Dior é bordado com notas frescas de lírio-do-vale, um acorde de peônia com toque de damasco e notas atalcadas de íris",
+        preco: R$ 549,00,
+        precodesconto: R$ 494,10,
+        categorias: ["feminino"],
+        tags:["perfume"],
+        marca: "Dior",
+        estoque: 5,
+        ativo: true,
+      
+    },
+
+
+    {
+        nome: "Good Girl Carolina Herrera ",
+        descricao:"Este perfume feminino empodera as mulheres para que conquistem uma cidade inteira. Poderoso e sensual, é perfeito para a mulher moderna, audaciosa, sexy, elegante e enigmática, que ama seu lado bom e comemora seu lado mau. Notas de topo: Amêndoa e Café Notas de corpo: Jasmin-árabe e Tuberosa Notas de fundo: Fava-tonca e Cacau. ",
+        preco: R$ 595,93,
+        precodesconto: R$ 536,33,
+        categorias: ["feminino"],
+        tags:["perfume"],
+        marca: "Caroline Herrera",
+        estoque: 1,
+        ativo: true,
+      
+    },
+
+   {
+      nome: "Imperial Night",
+      descricao: "Uma fragrância marcante com toques de especiarias e notas amadeiradas, ideal para ocasiões noturnas.",
+      preco: 450.00,
+      precodesconto: 399.99,
+      categorias: ["Perfume", "Masculino", "Eau de Parfum"],
+      tags: ["luxo", "amadeirado"],
+      marca: "Dior",
+      estoque: 25,
+      ativo: true
+   },
+
+   {
+      nome: "Ocean Breeze Homme",
+      descricao: "Refrescante e leve, com notas cítricas e aquáticas, perfeito para o uso diário e dias de verão.",
+      preco: 350.00,
+      precodesconto: 299.99,
+      categorias: ["Perfume", "Masculino", "Eau de Toilette"],
+      tags: ["fresco", "cítrico"],
+      marca: "Armani",
+      estoque: 40,
+      ativo: true
+   },
+
+   {
+      nome: "Midnight Leather",
+      descricao: "Um perfume sedutor, com notas de couro e baunilha, ideal para eventos formais e encontros especiais.",
+      preco: 600.00,
+      precodesconto: 549.99,
+      categorias: ["Perfume", "Masculino", "Eau de Parfum"],
+      tags: ["intenso", "luxuoso"],
+      marca: "Tom Ford",
+      estoque: 15,
+      ativo: true
+   },
+
+   {
+      nome: "Mountain Spirit",
+      descricao: "Fragrância aventureira com notas verdes e herbais, inspirada nas montanhas e na natureza selvagem.",
+      preco: 500.00,
+      precodesconto: 449.99,
+      categorias: ["Perfume", "Masculino", "Eau de Parfum"],
+      tags: ["herbal", "aventura"],
+      marca: "Chanel",
+      estoque: 30,
+      ativo: true
+   }
+
+])

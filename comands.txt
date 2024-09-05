@@ -1,0 +1,32 @@
+dotnet new sln --name EtecShop
+
+dotnet new webapi -o EtecShopAPI --use-controllers
+
+dotnet sln add EtecShopAPI\EtecShopAPI.csproj
+
+cd EtecShopAPI
+
+dotnet add package MongoDb.Drive
+
+
+
+
+
+
+
+
+
+{
+  "MongoDBSettings": {
+    "ConnectionString":"mongodb+srv://admin:admin123@cluster0.dhrl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "DatabaseName":"EtecShop"
+  },
+  
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
