@@ -6,7 +6,7 @@ dotnet sln add EtecShopAPI\EtecShopAPI.csproj
 
 cd EtecShopAPI
 
-dotnet add package MongoDb.Drive
+dotnet add package MongoDB.Driver
 
 
 
